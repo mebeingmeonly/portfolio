@@ -20,9 +20,9 @@ export const Hero: React.FC = () => {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  const text = "Hi, I'm Suhas. I'm a designer and developer focused on simplicity, utility, and high performance. I build clean digital products, design systems, and interactive experiences that work in real life. I believe that good design is quiet, deliberate, and always purposeful.";
+  const text = "Hi, I'm Suhas. I'm a designer and marketer focused on simplicity, utility, and high performance. I shape clean digital products, brand strategies, and interactive campaigns that work in real life. I believe that good design is quiet, deliberate, and always purposeful.";
   const words = text.split(" ");
-  // Highlight: Hi, I'm Suhas (0,1,2), designer and developer (5,6,7), work in real life (26,27,28,29), always purposeful (39,40)
+  // Highlight: Hi, I'm Suhas (0,1,2), designer and marketer (5,6,7), work in real life (26,27,28,29), always purposeful (39,40)
   const orangeWords = new Set([0, 1, 2, 5, 6, 7, 26, 27, 28, 29, 39, 40]);
 
   const container: Variants = {

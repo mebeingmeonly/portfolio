@@ -10,13 +10,13 @@ const services: ServiceItem[] = [
   },
   {
     id: '02',
-    title: 'Design Systems',
-    description: 'I build comprehensive, scalable component libraries and design tokens that bridge the gap between design and engineering.',
+    title: 'Brand Strategy',
+    description: 'I build cohesive brand strategy frameworks and narrative guidelines that position products clearly in competitive markets.',
   },
   {
     id: '03',
-    title: 'Frontend Development',
-    description: 'I develop responsive, high-performance web applications using modern tools like TypeScript, React, and Tailwind CSS.',
+    title: 'Growth Marketing',
+    description: 'I execute targeted, high-performance campaigns and digital marketing strategies that turn impressions into active user conversions.',
   },
   {
     id: '04',
@@ -25,8 +25,8 @@ const services: ServiceItem[] = [
   },
   {
     id: '05',
-    title: 'Interaction & Motion',
-    description: 'I bring static designs to life with micro-interactions, custom transitions, and purposeful motion design that enhances usability.',
+    title: 'Creative Direction',
+    description: 'I direct visual campaigns, digital assets, and interactive stories to ensure strict alignment between marketing goals and art style.',
   },
   {
     id: '06',
